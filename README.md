@@ -1,1 +1,1 @@
-# Senegal-Excursion
+# Senegal-Excursion et Decouvertes
