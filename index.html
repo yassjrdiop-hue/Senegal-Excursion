@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yass Travel Tour - Excursions Authentiques au Sénégal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Petite animation au survol des cartes */
+        .tour-card { transition: transform 0.3s ease-in-out; }
+        .tour-card:hover { transform: translateY(-10px); }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <nav class="bg-green-700 text-white p-4 shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-2xl font-bold tracking-wider">YASS TRAVEL TOUR</h1>
+            <a href="https://wa.me/221775571389" class="bg-orange-600 px-5 py-2 rounded-full font-bold hover:bg-orange-500 transition shadow-md">
+                <i class="fa-solid fa-phone mr-2"></i>Contact
+            </a>
+        </div>
+    </nav>
+
+    <header class="relative h-[70vh] flex items-center justify-center text-center text-white">
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <div class="relative z-10 px-6 max-w-4xl">
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-5 uppercase leading-tight">Explorez le Sénégal Authentique</h2>
+            <p class="text-lg md:text-2xl mb-10 font-light">Des paysages à couper le souffle, du Sine Saloum au Lac Rose, vivez une aventure inoubliable avec nos guides locaux.</p>
+            <a href="#excursions" class="bg-green-600 hover:bg-green-500 text-white font-bold py-4 px-10 rounded-full text-lg transition shadow-2xl transform hover:scale-105">
+                Découvrir Nos Circuits
+            </a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1591123720164-de1348028a82?q=80&w=1920&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover -z-10" alt="Coucher de soleil au Sénégal avec des Baobabs">
+    </header>
+
+    <section id="excursions" class="container mx-auto py-20 px-4">
+        <h3 class="text-4xl font-bold text-center mb-16 text-gray-900">Nos Destinations Préférées</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            
+            <div class="tour-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=800&auto=format&fit=crop" alt="Pirogues dans le Delta du Saloum, Sénégal" class="w-full h-64 object-cover">
+                <div class="p-8">
+                    <div class="flex items-center justify-between mb-3">
+                        <h4 class="text-2xl font-bold text-gray-900">Delta du Saloum</h4>
+                        <i class="fa-solid fa-ship text-3xl text-green-600"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Balade en pirogue traditionnelle dans les mangroves, observation des oiseaux et visite de villages de pêcheurs.</p>
+                    <p class="text-green-700 font-extrabold text-2xl mb-6">50 000 CFA <span class="text-sm font-normal text-gray-500">/pers.</span></p>
+                    <a href="https://wa.me/221775571389?text=Bonjour Yass Travel, je suis intéressé par l'excursion au Delta du Saloum à 50000 CFA" class="block text-center bg-orange-500 text-white py-3 rounded-lg font-bold hover:bg-orange-400 transition transform hover:scale-105">
+                        <i class="fa-brands fa-whatsapp mr-2"></i>Réserver via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                <img src="https://images.unsplash.com/photo-1628172813155-2e0fdf118b62?q=80&w=800&auto=format&fit=crop" alt="Le Lac Rose et dunes de sable, Sénégal" class="w-full h-64 object-cover">
+                <div class="p-8">
+                    <div class="flex items-center justify-between mb-3">
+                        <h4 class="text-2xl font-bold text-gray-900">Le Lac Rose</h4>
+                        <i class="fa-solid fa-water text-3xl text-pink-500"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Détente sur les rives roses, découverte de l'extraction de sel et aventure en 4x4 dans les dunes légendaires.</p>
+                    <p class="text-green-700 font-extrabold text-2xl mb-6">40 000 CFA <span class="text-sm font-normal text-gray-500">/pers.</span></p>
+                    <a href="https://wa.me/221775571389?text=Bonjour Yass Travel, je suis intéressé par l'excursion au Lac Rose à 40000 CFA" class="block text-center bg-orange-500 text-white py-3 rounded-lg font-bold hover:bg-orange-400 transition transform hover:scale-105">
+                        <i class="fa-brands fa-whatsapp mr-2"></i>Réserver via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                <img src="https://images.unsplash.com/photo-1590761614522-195f67b5d91e?q=80&w=800&auto=format&fit=crop" alt="Safari dans la réserve de Bandia, Sénégal" class="w-full h-64 object-cover">
+                <div class="p-8">
+                    <div class="flex items-center justify-between mb-3">
+                        <h4 class="text-2xl font-bold text-gray-900">Réserve de Bandia</h4>
+                        <i class="fa-solid fa-hippo text-3xl text-amber-700"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Safari inoubliable pour observer girafes, rhinocéros, zèbres, singes et crocodiles dans leur habitat naturel.</p>
+                    <p class="text-green-700 font-extrabold text-2xl mb-6">60 000 CFA <span class="text-sm font-normal text-gray-500">/pers.</span></p>
+                    <a href="https://wa.me/221775571389?text=Bonjour Yass Travel, je suis intéressé par le Safari à la Réserve de Bandia à 60000 CFA" class="block text-center bg-orange-500 text-white py-3 rounded-lg font-bold hover:bg-orange-400 transition transform hover:scale-105">
+                        <i class="fa-brands fa-whatsapp mr-2"></i>Réserver via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 px-4 text-center">
+        <p class="text-xl font-bold mb-3">YASS TRAVEL TOUR SÉNÉGAL</p>
+        <p class="text-gray-400 mb-3">&copy; 2026 Tous droits réservés.</p>
+        <p class="text-gray-500">Contact d'urgence & Réservations : +221 77 557 13 89</p>
+        <p class="mt-4 text-sm text-gray-600">Teranga, Culture, Aventure.</p>
+    </footer>
+
+    <a href="https://wa.me/221775571389" class="fixed bottom-8 right-8 bg-green-500 text-white p-5 rounded-full shadow-3xl hover:bg-green-400 transition transform hover:scale-110 z-50 animate-bounce-slow">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
+</body>
+</html>
