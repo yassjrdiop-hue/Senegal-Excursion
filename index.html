@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sénégal Excursion et Découverte - Site Officiel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .tour-card { transition: transform 0.3s ease; height: 100%; display: flex; flex-direction: column; }
+        .tour-card:hover { transform: translateY(-10px); }
+        html { scroll-behavior: smooth; }
+        .badge-all-inclusive { background-color: #00853F; color: #FDEF42; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 800; text-transform: uppercase; }
+        .btn-payment { background: linear-gradient(90deg, #ff7900 0%, #22a1ff 100%); }
+        .description-text { font-size: 0.9rem; color: #4b5563; line-height: 1.5; margin-bottom: 1.25rem; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <nav class="bg-[#00853F] text-white p-4 shadow-xl sticky top-0 z-50 border-b-2 border-[#FDEF42]">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-lg md:text-xl font-extrabold tracking-tighter uppercase">Sénégal Excursion et Découverte</h1>
+            <a href="https://wa.me/221774721575" class="bg-[#E31B23] px-4 py-2 rounded-full font-bold text-sm shadow-md flex items-center">
+                <i class="fa-solid fa-phone mr-2"></i> +221 77 472 15 75
+            </a>
+        </div>
+    </nav>
+
+    <header class="relative h-[65vh] flex items-center justify-center text-center text-white">
+        <div class="absolute inset-0 bg-black opacity-30"></div>
+        <div class="relative z-10 px-6">
+            <h2 class="text-4xl md:text-6xl font-black mb-4 uppercase drop-shadow-lg">L'Aventure Authentique</h2>
+            <p class="text-lg md:text-2xl mb-8 font-semibold text-[#FDEF42] italic">Le Sénégal à travers les yeux d'experts locaux</p>
+            <a href="#excursions" class="bg-[#00853F] py-3 px-10 rounded-full font-bold text-lg shadow-lg">Découvrir nos Circuits</a>
+        </div>
+        <img src="https://i.ibb.co/6803h0K/Sine-Saloum-Yass.png" class="absolute inset-0 w-full h-full object-cover -z-10" alt="Accueil">
+    </header>
+
+    <section id="excursions" class="container mx-auto py-16 px-4">
+        <h3 class="text-3xl font-bold text-center mb-12 border-b-4 border-[#FDEF42] inline-block pb-2 w-full uppercase text-[#00853F]">Détails de nos Expériences</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="tour-card bg-white rounded-xl overflow-hidden shadow-lg border-t-4 border-yellow-500">
+                <img src="https://i.ibb.co/image-13.png" class="w-full h-48 object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <h4 class="text-xl font-bold text-[#00853F] mb-2 uppercase">Réserve de Bandia</h4>
+                    <p class="description-text">Partez pour un safari inoubliable au cœur d'une forêt de baobabs. Observez de près les girafes, rhinocéros blancs, zèbres, buffles et singes en totale liberté.</p>
+                    <div class="mt-auto">
+                        <p class="text-[#E31B23] font-bold text-2xl mb-4">60 000 CFA <span class="badge-all-inclusive text-xs">Tout Inclus</span></p>
+                        <div class="space-y-2">
+                            <a href="https://wa.me/221774721575?text=Détails Réservation Bandia (60k)" class="block text-center bg-[#00853F] text-white py-2 rounded-lg font-bold">Réserver WhatsApp</a>
+                            <a href="https://wa.me/221774721575?text=Paiement Wave/OM pour Bandia" class="block text-center btn-payment text-white py-2 rounded-lg font-bold text-sm">Payer Wave / Orange Money</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-xl overflow-hidden shadow-lg border-t-4 border-amber-600">
+                <img src="https://i.ibb.co/image-14.png" class="w-full h-48 object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <h4 class="text-xl font-bold text-[#00853F] mb-2 uppercase">Ranch des Lions</h4>
+                    <p class="description-text">Une rencontre spectaculaire avec le roi de la savane. Accompagnés de guides experts, vivez le frisson d'observer les lions dans leur habitat naturel protégé.</p>
+                    <div class="mt-auto">
+                        <p class="text-[#E31B23] font-bold text-2xl mb-4">55 000 CFA <span class="badge-all-inclusive text-xs">Tout Inclus</span></p>
+                        <div class="space-y-2">
+                            <a href="https://wa.me/221774721575?text=Détails Réservation Ranch Lions (55k)" class="block text-center bg-[#00853F] text-white py-2 rounded-lg font-bold">Réserver WhatsApp</a>
+                            <a href="https://wa.me/221774721575?text=Paiement Wave/OM pour Ranch Lions" class="block text-center btn-payment text-white py-2 rounded-lg font-bold text-sm">Payer Wave / Orange Money</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-xl overflow-hidden shadow-lg border-t-4 border-red-600">
+                <img src="https://images.unsplash.com/photo-1599708153386-62e257760773?w=800" class="w-full h-48 object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <h4 class="text-xl font-bold text-[#00853F] mb-2 uppercase">Dakar & Île de Gorée</h4>
+                    <p class="description-text">Un voyage dans l'histoire à travers les ruelles colorées de Gorée et la Maison des Esclaves, suivi d'un tour panoramique de Dakar et du Monument de la Renaissance.</p>
+                    <div class="mt-auto">
+                        <p class="text-[#E31B23] font-bold text-2xl mb-4">55 000 CFA <span class="badge-all-inclusive text-xs">Tout Inclus</span></p>
+                        <div class="space-y-2">
+                            <a href="https://wa.me/221774721575?text=Détails Réservation Gorée (55k)" class="block text-center bg-[#00853F] text-white py-2 rounded-lg font-bold">Réserver WhatsApp</a>
+                            <a href="https://wa.me/221774721575?text=Paiement Wave/OM pour Gorée" class="block text-center btn-payment text-white py-2 rounded-lg font-bold text-sm">Payer Wave / Orange Money</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-xl overflow-hidden shadow-lg border-t-4 border-green-500">
+                <img src="https://i.ibb.co/6803h0K/Sine-Saloum-Yass.png" class="w-full h-48 object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <h4 class="text-xl font-bold text-[#00853F] mb-2 uppercase">Sine Saloum</h4>
+                    <p class="description-text">Naviguez en pirogue traditionnelle à travers les labyrinthes de mangroves. Découvrez l'île de Marlodj et observez une biodiversité exceptionnelle entre terre et mer.</p>
+                    <div class="mt-auto">
+                        <p class="text-[#E31B23] font-bold text-2xl mb-4">50 000 CFA <span class="badge-all-inclusive text-xs">Tout Inclus</span></p>
+                        <div class="space-y-2">
+                            <a href="https://wa.me/221774721575?text=Détails Réservation Sine Saloum (50k)" class="block text-center bg-[#00853F] text-white py-2 rounded-lg font-bold">Réserver WhatsApp</a>
+                            <a href="https://wa.me/221774721575?text=Paiement Wave/OM pour Saloum" class="block text-center btn-payment text-white py-2 rounded-lg font-bold text-sm">Payer Wave / Orange Money</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-xl overflow-hidden shadow-lg border-t-4 border-pink-400">
+                <img src="https://images.unsplash.com/photo-1628172813155-2e0fdf118b62?w=800" class="w-full h-48 object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <h4 class="text-xl font-bold text-[#00853F] mb-2 uppercase">Le Lac Rose</h4>
+                    <p class="description-text">Admirez les reflets roses de ce lac unique et assistez à l'extraction artisanale du sel. Sensations garanties lors d'une traversée des dunes en 4x4 jusqu'à l'océan.</p>
+                    <div class="mt-auto">
+                        <p class="text-[#E31B23] font-bold text-2xl mb-4">40 000 CFA <span class="badge-all-inclusive text-xs">Tout Inclus</span></p>
+                        <div class="space-y-2">
+                            <a href="https://wa.me/221774721575?text=Détails Réservation Lac Rose (40k)" class="block text-center bg-[#00853F] text-white py-2 rounded-lg font-bold">Réserver WhatsApp</a>
+                            <a href="https://wa.me/221774721575?text=Paiement Wave/OM pour Lac Rose" class="block text-center btn-payment text-white py-2 rounded-lg font-bold text-sm">Payer Wave / Orange Money</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-xl overflow-hidden shadow-lg border-t-4 border-gray-400">
+                <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800" class="w-full h-48 object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <h4 class="text-xl font-bold text-[#00853F] mb-2 uppercase">Joal-Fadiouth</h4>
+                    <p class="description-text">Découvrez Fadiouth, l'île constituée de coquillages reliée à la terre par un pont en bois. Visitez son cimetière mixte et ses greniers à mil sur pilotis.</p>
+                    <div class="mt-auto">
+                        <p class="text-[#E31B23] font-bold text-2xl mb-4">30 000 CFA <span class="badge-all-inclusive text-xs">Tout Inclus</span></p>
+                        <div class="space-y-2">
+                            <a href="https://wa.me/221774721575?text=Détails Réservation Joal (30k)" class="block text-center bg-[#00853F] text-white py-2 rounded-lg font-bold">Réserver WhatsApp</a>
+                            <a href="https://wa.me/221774721575?text=Paiement Wave/OM pour Joal" class="block text-center btn-payment text-white py-2 rounded-lg font-bold text-sm">Payer Wave / Orange Money</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-xl overflow-hidden shadow-lg border-t-4 border-blue-400">
+                <img src="https://i.ibb.co/image-3.png" class="w-full h-48 object-cover">
+                <div class="p-6 flex flex-col flex-grow">
+                    <h4 class="text-xl font-bold text-[#00853F] mb-2 uppercase">Lagune de Somone</h4>
+                    <p class="description-text">Un sanctuaire de paix. En pirogue, explorez la réserve ornithologique pour observer les pélicans et flamants roses au milieu d'une mangrove préservée.</p>
+                    <div class="mt-auto">
+                        <p class="text-[#E31B23] font-bold text-2xl mb-4">25 000 CFA <span class="badge-all-inclusive text-xs">Tout Inclus</span></p>
+                        <div class="space-y-2">
+                            <a href="https://wa.me/221774721575?text=Détails Réservation Somone (25k)" class="block text-center bg-[#00853F] text-white py-2 rounded-lg font-bold">Réserver WhatsApp</a>
+                            <a href="https://wa.me/221774721575?text=Paiement Wave/OM pour Somone" class="block text-center btn-payment text-white py-2 rounded-lg font-bold text-sm">Payer Wave / Orange Money</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 text-center border-t-8 border-[#FDEF42]">
+        <h4 class="text-2xl font-black text-[#FDEF42] mb-4 uppercase">Yass Travel Tour</h4>
+        <p class="mb-4 font-bold text-lg">+221 77 472 15 75</p>
+        <div class="flex space-x-4 justify-center bg-white/5 inline-flex p-4 rounded-xl">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Wave_Logo_S%C3%A9n%C3%A9gal.png" class="h-6" alt="Wave">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Orange_logo.svg/1024px-Orange_logo.svg.png" class="h-6" alt="OM">
+        </div>
+    </footer>
+
+</body>
+</html>
