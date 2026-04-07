@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sénégal Excursion et Découverte - Teranga & Aventure</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Animation fluide au survol des cartes */
+        .tour-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .tour-card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <nav class="bg-[#00853F] text-white p-4 shadow-xl sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-xl md:text-2xl font-extrabold tracking-tight">SÉNÉGAL EXCURSION ET DÉCOUVERTE</h1>
+            <a href="https://wa.me/221775571389" class="bg-[#E31B23] text-white px-5 py-2 rounded-full font-bold hover:bg-red-700 transition shadow-md text-sm md:text-base">
+                <i class="fa-solid fa-phone mr-2"></i>Contact
+            </a>
+        </div>
+    </nav>
+
+    <header class="relative h-[65vh] flex items-center justify-center text-center text-white">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative z-10 px-6 max-w-4xl">
+            <span class="inline-block bg-[#FDEF42] text-[#00853F] px-4 py-1 rounded-full font-bold mb-4 text-sm shadow-md">Teranga Authentique</span>
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-6 uppercase leading-tight tracking-tight">Vivez le Sénégal <br> comme jamais</h2>
+            <p class="text-lg md:text-2xl mb-10 font-light opacity-90">Explorez nos paysages uniques, du Sine Saloum au Lac Rose, guidés par la passion de notre terroir.</p>
+            <a href="#excursions" class="bg-[#00853F] hover:bg-green-700 text-white font-bold py-4 px-12 rounded-full text-lg transition shadow-2xl transform hover:scale-105">
+                Voir Nos Circuits
+            </a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1591123720164-de1348028a82?q=80&w=1920&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover -z-10" alt="Paysage réel du Sénégal avec Baobabs au coucher du soleil">
+    </header>
+
+    <section id="excursions" class="container mx-auto py-20 px-4">
+        <div class="text-center mb-16">
+            <h3 class="text-4xl font-extrabold text-gray-900 mb-2">Nos Destinations Phares</h3>
+            <div class="flex justify-center space-x-2 text-[#FDEF42] text-xl">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            
+            <div class="tour-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+                <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=800&auto=format&fit=crop" alt="Pirogue réelle naviguant dans les mangroves du Delta du Saloum, Sénégal" class="w-full h-64 object-cover">
+                <div class="p-8">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-2xl font-bold text-[#00853F]">Delta du Saloum</h4>
+                        <i class="fa-solid fa-ship text-3xl text-green-600 opacity-80"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Parcourez le labyrinthe des mangroves en pirogue traditionnelle, observez les oiseaux rares et découvrez la vie insulaire.</p>
+                    <div class="flex items-end justify-between mb-6">
+                        <p class="text-[#E31B23] font-extrabold text-3xl">50 000 CFA</p>
+                        <span class="text-sm font-medium text-gray-500 pb-1">/ personne</span>
+                    </div>
+                    <a href="https://wa.me/221775571389?text=Bonjour Sénégal Excursion et Découverte, je souhaite réserver pour le Delta du Saloum" class="block text-center bg-[#E31B23] text-white py-3.5 rounded-xl font-bold hover:bg-red-700 transition shadow-lg">
+                        <i class="fa-brands fa-whatsapp mr-2 text-lg"></i>Réserver via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+                <img src="https://images.unsplash.com/photo-1628172813155-2e0fdf118b62?q=80&w=800&auto=format&fit=crop" alt="Tas de sel récoltés sur les rives réelles du Lac Rose, Sénégal" class="w-full h-64 object-cover">
+                <div class="p-8">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-2xl font-bold text-[#00853F]">Le Lac Rose</h4>
+                        <i class="fa-solid fa-water text-3xl text-pink-500 opacity-80"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Découvrez la récolte de sel unique au monde, baignez-vous dans ses eaux salées et vivez l'aventure en 4x4 dans les dunes du Paris-Dakar.</p>
+                    <div class="flex items-end justify-between mb-6">
+                        <p class="text-[#E31B23] font-extrabold text-3xl">40 000 CFA</p>
+                        <span class="text-sm font-medium text-gray-500 pb-1">/ personne</span>
+                    </div>
+                    <a href="https://wa.me/221775571389?text=Bonjour Sénégal Excursion et Découverte, je souhaite réserver pour le Lac Rose" class="block text-center bg-[#E31B23] text-white py-3.5 rounded-xl font-bold hover:bg-red-700 transition shadow-lg">
+                        <i class="fa-brands fa-whatsapp mr-2 text-lg"></i>Réserver via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+                <img src="https://images.unsplash.com/photo-1590761614522-195f67b5d91e?q=80&w=800&auto=format&fit=crop" alt="Safari réel avec des girafes dans la réserve de Bandia, Sénégal" class="w-full h-64 object-cover">
+                <div class="p-8">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-2xl font-bold text-[#00853F]">Réserve de Bandia</h4>
+                        <i class="fa-solid fa-hippo text-3xl text-amber-700 opacity-80"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Un véritable safari en Afrique de l'Ouest. Observez girafes, rhinocéros, zèbres, crocodiles et singes dans leur milieu naturel protégé.</p>
+                    <div class="flex items-end justify-between mb-6">
+                        <p class="text-[#E31B23] font-extrabold text-3xl">60 000 CFA</p>
+                        <span class="text-sm font-medium text-gray-500 pb-1">/ personne</span>
+                    </div>
+                    <a href="https://wa.me/221775571389?text=Bonjour Sénégal Excursion et Découverte, je souhaite réserver pour la Réserve de Bandia" class="block text-center bg-[#E31B23] text-white py-3.5 rounded-xl font-bold hover:bg-red-700 transition shadow-lg">
+                        <i class="fa-brands fa-whatsapp mr-2 text-lg"></i>Réserver via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-gray-950 text-white py-16 px-4 text-center border-t-4 border-[#FDEF42]">
+        <h5 class="text-2xl font-extrabold text-[#FDEF42] mb-4 tracking-tight">SÉNÉGAL EXCURSION ET DÉCOUVERTE</h5>
+        <p class="text-gray-400 mb-4 max-w-md mx-auto">Votre partenaire de confiance pour explorer la Teranga Sénégalaise en toute sécurité et authenticité.</p>
+        <div class="text-gray-500 space-y-1 mb-6">
+            <p>&copy; 2026 Tous droits réservés.</p>
+            <p>Service Client & Réservations : <span class="font-bold text-gray-300">+221 77 557 13 89</span></p>
+        </div>
+        <div class="flex justify-center space-x-2 text-xl">
+             <div class="w-10 h-2 bg-[#00853F]"></div>
+             <div class="w-10 h-2 bg-[#FDEF42]"></div>
+             <div class="w-10 h-2 bg-[#E31B23]"></div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/221775571389" class="fixed bottom-8 right-8 bg-[#E31B23] text-white p-5 rounded-full shadow-3xl hover:bg-red-700 transition transform hover:scale-110 z-50">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
+</body>
+</html>
