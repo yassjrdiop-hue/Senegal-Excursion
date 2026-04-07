@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sénégal Excursion et Découverte - Site Officiel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .tour-card { transition: transform 0.3s ease; }
+        .tour-card:hover { transform: translateY(-10px); }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <nav class="bg-[#00853F] text-white p-4 shadow-xl sticky top-0 z-50 border-b-2 border-[#FDEF42]">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-lg md:text-xl font-extrabold tracking-tighter uppercase">Sénégal Excursion et Découverte</h1>
+            <a href="https://wa.me/221774721575" class="bg-[#E31B23] px-4 py-2 rounded-full font-bold text-sm shadow-md flex items-center transition hover:bg-red-700">
+                <i class="fa-solid fa-phone mr-2"></i> +221 77 472 15 75
+            </a>
+        </div>
+    </nav>
+
+    <header class="relative h-[65vh] flex items-center justify-center text-center text-white">
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <div class="relative z-10 px-6">
+            <h2 class="text-4xl md:text-6xl font-black mb-4 uppercase drop-shadow-lg">L'Aventure Authentique</h2>
+            <p class="text-lg md:text-2xl mb-8 font-semibold text-[#FDEF42] drop-shadow-md italic">Découvrez le vrai Sénégal avec des experts locaux</p>
+            <a href="#excursions" class="bg-[#00853F] py-3 px-10 rounded-full font-bold text-lg shadow-lg hover:bg-green-700 transition">Découvrir Nos Circuits</a>
+        </div>
+        <img src="https://images.unsplash.com/photo-1523438097201-512ae7d59c44?q=80&w=1920&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover -z-10" alt="Coucher de soleil sur les pirogues au Sénégal">
+    </header>
+
+    <section id="excursions" class="container mx-auto py-16 px-4">
+        <h3 class="text-3xl font-bold text-center mb-12 border-b-4 border-[#FDEF42] inline-block pb-2 mx-auto w-full uppercase tracking-widest">Nos Circuits Incontournables</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+            <div class="tour-card bg-white rounded-xl overflow-hidden shadow-lg border-t-4 border-red-600">
+                <img src="https://images.unsplash.com/photo-1599708153386-62e257760773?q=80&w=800&auto=format&fit=crop" alt="Maison des Esclaves, Île de Gorée" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="text-xl font-bold text-[#00853F] mb-2 uppercase">Île de Gorée</h4>
+                    <p class="text-gray-600 text-sm mb-4 text-justify italic">Histoire et émotion : Visite guidée de la Maison des Esclaves.</p>
+                    <div class="mb-4">
+                        <p class="text-[#E31B23] font-bold text-2xl">45 000 CFA</p>
+                        <span class="text-xs font-bold uppercase text-green-700 bg-green-50 px-2 py-1 rounded">Tout Inclus / Pax</span>
+                    </div>
+                    <a href="https://wa.me/221774721575?text=Bonjour, je souhaite réserver l'excursion Tout Inclus à l'île de Gorée (45000 CFA)" class="block text-center bg-[#00853F] text-white py-2 rounded-lg font-bold hover:bg-green-700 shadow-md transition">Réserver</a>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-xl overflow-hidden shadow-lg border-t-4 border-pink-400">
+                <img src="https://images.unsplash.com/photo-1628172813155-2e0fdf118b62?q=80&w=800&auto=format&fit=crop" alt="Extraction du sel au Lac Rose" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="text-xl font-bold text-[#00853F] mb-2 uppercase">Le Lac Rose</h4>
+                    <p class="text-gray-600 text-sm mb-4 text-justify italic">Extraction du sel et sensations fortes en 4x4 dans les dunes.</p>
+                    <p class="text-[#E31B23] font-bold text-2xl mb-4">40 000 CFA</p>
+                    <a href="https://wa.me/221774721575?text=Bonjour, je souhaite réserver pour le Lac Rose" class="block text-center bg-[#00853F] text-white py-2 rounded-lg font-bold hover:bg-green-700 shadow-md transition">Réserver</a>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-xl overflow-hidden shadow-lg border-t-4 border-green-400">
+                <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=800&auto=format&fit=crop" alt="Navigation dans le Delta du Sine Saloum" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="text-xl font-bold text-[#00853F] mb-2 uppercase">Sine Saloum</h4>
+                    <p class="text-gray-600 text-sm mb-4 text-justify italic">Pirogue dans le labyrinthe des mangroves et îles aux oiseaux.</p>
+                    <p class="text-[#E31B23] font-bold text-2xl mb-4">50 000 CFA</p>
+                    <a href="https://wa.me/221774721575?text=Bonjour, je souhaite réserver pour le Sine Saloum" class="block text-center bg-[#00853F] text-white py-2 rounded-lg font-bold hover:bg-green-700 shadow-md transition">Réserver</a>
+                </div>
+            </div>
+
+            <div class="tour-card bg-white rounded-xl overflow-hidden shadow-lg border-t-4 border-yellow-400">
+                <img src="https://images.unsplash.com/photo-1590761614522-195f67b5d91e?q=80&w=800&auto=format&fit=crop" alt="Safari dans la réserve de Bandia" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h4 class="text-xl font-bold text-[#00853F] mb-2 uppercase">Réserve de Bandia</h4>
+                    <p class="text-gray-600 text-sm mb-4 text-justify italic">Safari girafes, rhinocéros et baobabs géants en pleine brousse.</p>
+                    <p class="text-[#E31B23] font-bold text-2xl mb-4">60 000 CFA</p>
+                    <a href="https://wa.me/221774721575?text=Bonjour, je souhaite réserver pour Bandia" class="block text-center bg-[#00853F] text-white py-2 rounded-lg font-bold hover:bg-green-700 shadow-md transition">Réserver</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 text-center border-t-8 border-[#FDEF42]">
+        <h4 class="text-2xl font-black text-[#FDEF42] mb-4 uppercase">Sénégal Excursion et Découverte</h4>
+        <div class="space-y-2 mb-8 font-medium">
+            <p><i class="fa-brands fa-whatsapp text-green-500 mr-2"></i> WhatsApp : +221 77 472 15 75</p>
+            <p><i class="fa-solid fa-location-dot text-red-500 mr-2"></i> Basé au Sénégal - La Teranga vous attend</p>
+        </div>
+        <p class="text-[10px] text-gray-500 uppercase tracking-[0.2em]">Authenticité - Sécurité - Passion</p>
+    </footer>
+
+    <a href="https://wa.me/221774721575" class="fixed bottom-6 right-6 bg-[#E31B23] text-white p-4 rounded-full shadow-2xl z-50 transform hover:scale-110 transition border-2 border-white">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
+</body>
+</html>
