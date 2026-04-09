@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sénégal Excursion et Découverte - Officiel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .tour-card { transition: transform 0.3s ease; height: 100%; display: flex; flex-direction: column; border-radius: 20px; overflow: hidden; background: white; box-shadow: 0 10px 25px rgba(0,0,0,0.1); position: relative; }
+        .tour-card:hover { transform: translateY(-10px); }
+        .tampon-inclus { position: absolute; top: 15px; right: 15px; width: 75px; height: 75px; background-color: #FDEF42; color: #00853F; border-radius: 50%; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 0.7rem; font-weight: 900; line-height: 1; text-transform: uppercase; border: 3px dashed #00853F; transform: rotate(15deg); z-index: 30; box-shadow: 0 4px 8px rgba(0,0,0,0.3); }
+        .price-tag { color: #E31B23; font-weight: 900; font-size: 1.5rem; }
+        .price-euro { color: #6b7280; font-size: 1rem; font-weight: 600; }
+        .hero-bg { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1580644315266-9b1686699709?q=80&w=2000'); background-size: cover; background-position: center; }
+        .desc-detaillee { font-size: 0.95rem; color: #374151; line-height: 1.6; text-align: left; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <nav class="bg-[#00853F] text-white p-4 sticky top-0 z-50 border-b-4 border-[#FDEF42]">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <span class="font-black uppercase text-xl tracking-tighter">Sénégal Excursion</span>
+            <a href="https://wa.me/221774721575" class="bg-[#E31B23] px-6 py-2 rounded-full font-bold text-sm flex items-center shadow-lg">
+                <i class="fa-solid fa-phone mr-2"></i> +221 77 472 15 75
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero-bg h-[40vh] flex items-center justify-center text-center text-white">
+        <div class="px-6">
+            <h2 class="text-4xl md:text-6xl font-black mb-2 uppercase drop-shadow-lg text-white">Explorez le Sénégal</h2>
+            <p class="text-xl font-bold text-[#FDEF42]">AVEC YASS TRAVEL TOUR</p>
+        </div>
+    </header>
+
+    <section id="circuits" class="container mx-auto py-16 px-4">
+        <h3 class="text-3xl font-black text-center mb-16 uppercase text-gray-800 border-b-4 border-[#00853F] inline-block w-full pb-4">Nos 7 Circuits Détillés</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            
+            <div class="tour-card">
+                <div class="tampon-inclus">Tout<br>Inclus</div>
+                <img src="0141.jpeg?v=1" class="w-full h-64 object-cover">
+                <div class="p-8 flex-grow flex flex-col">
+                    <h4 class="text-2xl font-black text-[#00853F] uppercase mb-4">Réserve de Bandia</h4>
+                    <div class="desc-detaillee mb-6">
+                        <p class="mb-2"><strong><i class="fas fa-binoculars mr-2"></i>Le Programme :</strong> Safari en 4x4 au cœur d'une forêt de baobabs géants.</p>
+                        <p>Observez les <strong>girafes, rhinocéros blancs, zèbres, buffles</strong> et de nombreuses espèces d'antilopes. La sortie inclut la visite du bassin des crocodiles et des tortues géantes. Un moment magique en pleine brousse africaine.</p>
+                    </div>
+                    <div class="mt-auto">
+                        <p class="price-tag mb-4">60 000 CFA <span class="price-euro">/ 92€</span></p>
+                        <a href="https://wa.me/221774721575?text=Détails Bandia" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold text-center">Réserver cette aventure</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-inclus">Tout<br>Inclus</div>
+                <img src="0142.jpeg?v=1" class="w-full h-64 object-cover">
+                <div class="p-8 flex-grow flex flex-col">
+                    <h4 class="text-2xl font-black text-[#00853F] uppercase mb-4">Ranch des Lions</h4>
+                    <div class="desc-detaillee mb-6">
+                        <p class="mb-2"><strong><i class="fas fa-paw mr-2"></i>Le Programme :</strong> Une immersion sécurisée dans le territoire des fauves.</p>
+                        <p>Montez à bord d'un véhicule grillagé pour une rencontre face à face avec <strong>les lions de Bandia</strong>. Vous découvrirez leur mode de vie, leurs habitudes de chasse et leur majesté à seulement quelques centimètres de vous. Sensations fortes garanties !</p>
+                    </div>
+                    <div class="mt-auto">
+                        <p class="price-tag mb-4">55 000 CFA <span class="price-euro">/ 84€</span></p>
+                        <a href="https://wa.me/221774721575?text=Détails Lions" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold text-center">Réserver ce frisson</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-inclus">Tout<br>Inclus</div>
+                <img src="0145.jpeg?v=1" class="w-full h-64 object-cover">
+                <div class="p-8 flex-grow flex flex-col">
+                    <h4 class="text-2xl font-black text-[#00853F] uppercase mb-4">Sine Saloum</h4>
+                    <div class="desc-detaillee mb-6">
+                        <p class="mb-2"><strong><i class="fas fa-ship mr-2"></i>Le Programme :</strong> Journée détente dans l'un des plus beaux deltas du monde.</p>
+                        <p>Balade en <strong>pirogue traditionnelle</strong> à travers les mangroves mystérieuses. Visite de l'île aux oiseaux et escale au village de pêcheurs. Le circuit se termine par un déjeuner typique pieds dans l'eau sur la magnifique <strong>île de Marlodj</strong>.</p>
+                    </div>
+                    <div class="mt-auto">
+                        <p class="price-tag mb-4">50 000 CFA <span class="price-euro">/ 76€</span></p>
+                        <a href="https://wa.me/221774721575?text=Détails Saloum" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold text-center">Réserver cette évasion</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-inclus">Tout<br>Inclus</div>
+                <img src="https://images.unsplash.com/photo-1599708153386-62e257760773?w=800" class="w-full h-64 object-cover">
+                <div class="p-8 flex-grow flex flex-col">
+                    <h4 class="text-2xl font-black text-[#00853F] uppercase mb-4">Dakar & Gorée</h4>
+                    <div class="desc-detaillee mb-6">
+                        <p class="mb-2"><strong><i class="fas fa-history mr-2"></i>Le Programme :</strong> Un voyage entre mémoire, culture et modernité.</p>
+                        <p>Traversée en chaloupe vers <strong>l'île de Gorée</strong> et visite de la Maison des Esclaves. Retour sur Dakar pour découvrir le <strong>Monument de la Renaissance Africaine</strong>, le marché Kermel et les corniches de la capitale.</p>
+                    </div>
+                    <div class="mt-auto">
+                        <p class="price-tag mb-4">55 000 CFA <span class="price-euro">/ 84€</span></p>
+                        <a href="https://wa.me/221774721575?text=Détails Dakar" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold text-center">Réserver cette visite</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-inclus">Tout<br>Inclus</div>
+                <img src="https://images.unsplash.com/photo-1628172813155-2e0fdf118b62?w=800" class="w-full h-64 object-cover">
+                <div class="p-8 flex-grow flex flex-col">
+                    <h4 class="text-2xl font-black text-[#00853F] uppercase mb-4">Le Lac Rose</h4>
+                    <div class="desc-detaillee mb-6">
+                        <p class="mb-2"><strong><i class="fas fa-car mr-2"></i>Le Programme :</strong> Sport, nature et curiosité géologique.</p>
+                        <p>Observation de l'extraction de sel par les locaux. Ensuite, préparez-vous pour un tour de <strong>4x4 sur les dunes</strong> de l'arrivée du mythique rallye Paris-Dakar. Possibilité de flotter dans le lac grâce à sa forte teneur en sel.</p>
+                    </div>
+                    <div class="mt-auto">
+                        <p class="price-tag mb-4">40 000 CFA <span class="price-euro">/ 61€</span></p>
+                        <a href="https://wa.me/221774721575?text=Détails Lac Rose" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold text-center">Réserver ce circuit</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-inclus">Tout<br>Inclus</div>
+                <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800" class="w-full h-64 object-cover">
+                <div class="p-8 flex-grow flex flex-col">
+                    <h4 class="text-2xl font-black text-[#00853F] uppercase mb-4">Joal-Fadiouth</h4>
+                    <div class="desc-detaillee mb-6">
+                        <p class="mb-2"><strong><i class="fas fa-church mr-2"></i>Le Programme :</strong> La ville natale de Senghor et l'île aux coquillages.</p>
+                        <p>Marchez sur le pont en bois pour rejoindre l'île de Fadiouth entièrement faite de coquillages. Visitez son <strong>cimetière unique</strong> où chrétiens et musulmans reposent ensemble, et admirez les greniers à mil sur pilotis.</p>
+                    </div>
+                    <div class="mt-auto">
+                        <p class="price-tag mb-4">30 000 CFA <span class="price-euro">/ 46€</span></p>
+                        <a href="https://wa.me/221774721575?text=Détails Joal" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold text-center">Réserver cette culture</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-inclus">Tout<br>Inclus</div>
+                <img src="0149.jpeg?v=1" class="w-full h-64 object-cover">
+                <div class="p-8 flex-grow flex flex-col">
+                    <h4 class="text-2xl font-black text-[#00853F] uppercase mb-4">Lagune de Somone</h4>
+                    <div class="desc-detaillee mb-6">
+                        <p class="mb-2"><strong><i class="fas fa-leaf mr-2"></i>Le Programme :</strong> Calme, nature et observation ornithologique.</p>
+                        <p>Une douce balade en barque dans la réserve naturelle de la Somone. Admirez les <strong>pélicans, hérons et aigrettes</strong> nichés dans la mangrove. Dégustez des huîtres grillées au bord de l'eau pour une fin de journée paradisiaque.</p>
+                    </div>
+                    <div class="mt-auto">
+                        <p class="price-tag mb-4">25 000 CFA <span class="price-euro">/ 38€</span></p>
+                        <a href="https://wa.me/221774721575?text=Détails Somone" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold text-center">Réserver ce repos</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 text-center">
+        <h4 class="text-[#FDEF42] font-black text-2xl mb-2 uppercase">Yass Travel Tour</h4>
+        <p class="text-gray-400 mb-6 font-bold">+221 77 472 15 75</p>
+        <div class="flex justify-center space-x-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Wave_Logo_S%C3%A9n%C3%A9gal.png" class="h-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Orange_logo.svg/1024px-Orange_logo.svg.png" class="h-6">
+        </div>
+    </footer>
+
+</body>
+</html>
