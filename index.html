@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sénégal Excursion et Découverte - Officiel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .tour-card { transition: transform 0.3s ease; height: 100%; display: flex; flex-direction: column; border-radius: 15px; overflow: hidden; background: white; box-shadow: 0 4px 15px rgba(0,0,0,0.1); position: relative; }
+        .tour-card:hover { transform: translateY(-10px); }
+        
+        /* Tampon Rond Tout Inclus */
+        .tampon-inclus {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 65px;
+            height: 65px;
+            background-color: #FDEF42;
+            color: #00853F;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 0.6rem;
+            font-weight: 900;
+            line-height: 1;
+            text-transform: uppercase;
+            border: 2px dashed #00853F;
+            transform: rotate(12deg);
+            z-index: 30;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .price-tag { color: #E31B23; font-weight: 800; font-size: 1.4rem; }
+        .price-euro { color: #6b7280; font-size: 0.9rem; font-weight: 600; }
+        .hero-bg { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1580644315266-9b1686699709?q=80&w=2000'); background-size: cover; background-position: center; }
+        .btn-wave { background-color: #22a1ff; }
+        .btn-om { background-color: #ff7900; }
+        .desc-text { font-size: 0.85rem; color: #4b5563; line-height: 1.5; min-height: 70px; }
+        
+        /* Style Section Avis */
+        .review-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); border-left: 4px solid #00853F; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <nav class="bg-[#00853F] text-white p-4 sticky top-0 z-50 border-b-4 border-[#FDEF42]">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <span class="font-black uppercase text-lg tracking-tighter">Sénégal Excursion</span>
+            <a href="https://wa.me/221774721575" class="bg-[#E31B23] px-4 py-2 rounded-full font-bold text-xs flex items-center shadow-md">
+                <i class="fa-solid fa-phone mr-2"></i> +221 77 472 15 75
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero-bg h-[45vh] flex items-center justify-center text-center text-white px-6">
+        <div class="max-w-3xl">
+            <h2 class="text-3xl md:text-5xl font-black mb-2 uppercase drop-shadow-lg text-white">Le Sénégal Authentique</h2>
+            <p class="text-sm md:text-xl mb-6 font-medium text-[#FDEF42] uppercase tracking-widest">Yass Travel Tour</p>
+            <a href="#circuits" class="bg-[#00853F] py-3 px-8 rounded-full font-bold text-sm border-2 border-[#FDEF42] text-white">Nos Programmes</a>
+        </div>
+    </header>
+
+    <section id="circuits" class="container mx-auto py-12 px-4">
+        <h3 class="text-2xl font-black text-center mb-10 uppercase text-gray-800 border-b-2 border-[#00853F] inline-block w-full pb-4">Nos 7 Circuits</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <div class="tour-card">
+                <div class="tampon-inclus">Tout<br>Inclus</div>
+                <img src="0141.jpeg?v=1" class="w-full h-48 object-cover">
+                <div class="p-5 text-center flex-grow flex flex-col">
+                    <h4 class="text-lg font-bold text-[#00853F] uppercase mb-2">Réserve de Bandia</h4>
+                    <p class="desc-text mb-4 italic">Safari girafes, rhinocéros et zèbres au cœur de la brousse.</p>
+                    <p class="price-tag">60 000 CFA <span class="price-euro">/ 92€</span></p>
+                    <div class="mt-auto pt-4 space-y-2">
+                        <a href="https://wa.me/221774721575" class="block bg-[#00853F] text-white py-2 rounded-lg font-bold">Réserver</a>
+                        <div class="flex gap-2">
+                            <div class="flex-1 btn-wave text-white py-1 rounded-md text-[9px] font-bold">WAVE</div>
+                            <div class="flex-1 btn-om text-white py-1 rounded-md text-[9px] font-bold">O. MONEY</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-inclus">Tout<br>Inclus</div>
+                <img src="0145.jpeg?v=1" class="w-full h-48 object-cover">
+                <div class="p-5 text-center flex-grow flex flex-col">
+                    <h4 class="text-lg font-bold text-[#00853F] uppercase mb-2">Sine Saloum</h4>
+                    <p class="desc-text mb-4 italic">Pirogue dans les mangroves et déjeuner sur l'île de Marlodj.</p>
+                    <p class="price-tag">50 000 CFA <span class="price-euro">/ 76€</span></p>
+                    <div class="mt-auto pt-4 space-y-2">
+                        <a href="https://wa.me/221774721575" class="block bg-[#00853F] text-white py-2 rounded-lg font-bold">Réserver</a>
+                        <div class="flex gap-2">
+                            <div class="flex-1 btn-wave text-white py-1 rounded-md text-[9px] font-bold">WAVE</div>
+                            <div class="flex-1 btn-om text-white py-1 rounded-md text-[9px] font-bold">O. MONEY</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-inclus">Tout<br>Inclus</div>
+                <img src="0149.jpeg?v=1" class="w-full h-48 object-cover">
+                <div class="p-5 text-center flex-grow flex flex-col">
+                    <h4 class="text-lg font-bold text-[#00853F] uppercase mb-2">Lagune de Somone</h4>
+                    <p class="desc-text mb-4 italic">Détente, oiseaux et calme absolu dans la réserve naturelle.</p>
+                    <p class="price-tag">25 000 CFA <span class="price-euro">/ 38€</span></p>
+                    <div class="mt-auto pt-4 space-y-2">
+                        <a href="https://wa.me/221774721575" class="block bg-[#00853F] text-white py-2 rounded-lg font-bold">Réserver</a>
+                        <div class="flex gap-2">
+                            <div class="flex-1 btn-wave text-white py-1 rounded-md text-[9px] font-bold">WAVE</div>
+                            <div class="flex-1 btn-om text-white py-1 rounded-md text-[9px] font-bold">O. MONEY</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-white py-12 px-4">
+        <div class="container mx-auto">
+            <h3 class="text-2xl font-black text-center mb-10 uppercase text-gray-800">Ce que disent nos voyageurs</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <div class="review-card">
+                    <div class="flex text-yellow-400 mb-2">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 text-sm italic mb-4">"Une organisation parfaite pour notre sortie à Bandia. Yass est très professionnel et connaît parfaitement la région. Je recommande !"</p>
+                    <p class="font-bold text-gray-800">- Jean-Marc (France)</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="flex text-yellow-400 mb-2">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 text-sm italic mb-4">"Le Sine Saloum en pirogue avec Yass Travel Tour a été le moment fort de notre voyage au Sénégal. Authentique et mémorable."</p>
+                    <p class="font-bold text-gray-800">- Sarah & Lucas (Belgique)</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="flex text-yellow-400 mb-2">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 text-sm italic mb-4">"Très réactif sur WhatsApp. Le paiement par Wave est super pratique. Tout était inclus comme promis, pas de mauvaise surprise !"</p>
+                    <p class="font-bold text-gray-800">- Aminata (Sénégal)</p>
+                </div>
+
+            </div>
+            
+            <div class="text-center mt-8">
+                <a href="https://wa.me/221774721575?text=Je souhaite laisser un avis sur mon excursion" class="text-[#00853F] font-bold border-b-2 border-[#00853F] hover:text-[#E31B23]">
+                    <i class="fas fa-pen mr-2"></i>Laissez votre avis sur WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-10 text-center border-t-8 border-[#FDEF42]">
+        <h4 class="text-[#FDEF42] font-black text-xl mb-2 uppercase">Yass Travel Tour</h4>
+        <p class="text-xs text-gray-400 uppercase tracking-widest mb-6 px-4">Spécialiste des excursions et circuits touristiques au Sénégal</p>
+        <div class="flex justify-center items-center space-x-6 mb-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Wave_Logo_S%C3%A9n%C3%A9gal.png" class="h-5">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Orange_logo.svg/1024px-Orange_logo.svg.png" class="h-5">
+        </div>
+        <p class="font-black text-lg">+221 77 472 15 75</p>
+    </footer>
+
+</body>
+</html>
