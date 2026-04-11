@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yass Travel Tour - Sénégal Excursion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .flag-gradient {
+            background: linear-gradient(to right, #00853F 33%, #FDEF42 33%, #FDEF42 66%, #E31B23 66%);
+            height: 6px;
+        }
+        .gold-seal {
+            background: linear-gradient(135deg, #bf953f, #fcf6ba, #aa771c);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .details-content { max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out; }
+        .details-toggle:checked ~ .details-content { max-height: 500px; }
+        .details-label::after { content: 'Détails du circuit ➔'; }
+        .details-toggle:checked ~ .details-label::after { content: 'Fermer ✖'; }
+        
+        .card-tour { border-top: 5px solid #00853F; border-bottom: 5px solid #E31B23; }
+    </style>
+</head>
+<body class="bg-slate-50 font-sans">
+
+    <div class="flag-gradient"></div>
+
+    <nav class="bg-white shadow-lg sticky top-0 z-50 py-3 px-6 flex justify-between items-center">
+        <div class="flex items-center gap-2">
+            <img src="logo.png" class="h-12 w-12 rounded-full border-2 border-[#00853F]" alt="Logo">
+            <div>
+                <h1 class="font-black text-xl tracking-tighter text-[#00853F]">YASS TRAVEL <span class="text-[#E31B23]">TOUR</span></h1>
+                <p class="text-[10px] font-bold text-gray-500 uppercase tracking-widest">L'excellence au Sénégal</p>
+            </div>
+        </div>
+        <div class="hidden md:flex gap-4">
+             <span class="bg-[#FDEF42] px-3 py-1 rounded text-xs font-black text-black">WAVE</span>
+             <span class="bg-orange-500 px-3 py-1 rounded text-xs font-black text-white">ORANGE</span>
+        </div>
+    </nav>
+
+    <header class="bg-[#00853F] py-16 text-center text-white px-4">
+        <h2 class="text-4xl md:text-5xl font-black italic uppercase mb-2">Nos Circuits Détaillés</h2>
+        <div class="w-24 h-1 bg-[#FDEF42] mx-auto mb-4"></div>
+        <p class="text-yellow-300 font-bold uppercase tracking-widest">Vivez la Teranga avec authenticité</p>
+    </header>
+
+    <main class="container mx-auto p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="bg-white rounded-2xl overflow-hidden shadow-2xl card-tour relative">
+            <div class="absolute top-4 right-4 gold-seal w-14 h-14 rounded-full flex items-center justify-center text-[10px] font-black text-center rotate-12 z-10 text-[#4a3701]">VIP</div>
+            <img src="image_9.png" class="w-full h-64 object-cover" alt="Gorée Lac Rose">
+            <div class="p-6">
+                <h3 class="text-xl font-black text-[#00853F] uppercase">Gorée + Lac Rose</h3>
+                <input type="checkbox" id="c1" class="hidden details-toggle">
+                <div class="details-content text-gray-600 text-sm italic py-3">
+                    Matinée historique à Gorée (Maison des Esclaves) et après-midi 4x4 sensationnel sur les dunes du Lac Rose.
+                </div>
+                <label for="c1" class="details-label text-[#E31B23] text-[10px] font-black cursor-pointer uppercase"></label>
+                
+                <div class="mt-6 flex items-center justify-between bg-slate-50 p-3 rounded-xl border border-slate-200">
+                    <div>
+                        <p class="text-[10px] font-bold text-gray-400 uppercase">Tarif</p>
+                        <p class="text-lg font-black text-slate-800">75 000 <span class="text-xs">CFA</span></p>
+                        <p class="text-xs font-bold text-[#00853F]">~ 115 €</p>
+                    </div>
+                    <a href="https://wa.me/221774721575" class="bg-[#00853F] text-white px-4 py-3 rounded-lg font-black text-xs uppercase shadow-md flex items-center gap-2 hover:bg-green-700 transition">
+                        Réserver <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-2xl overflow-hidden shadow-2xl card-tour relative">
+            <img src="image_8.png" class="w-full h-64 object-cover" alt="Dakar Gorée">
+            <div class="p-6">
+                <h3 class="text-xl font-black text-[#00853F] uppercase">Dakar & Gorée</h3>
+                <input type="checkbox" id="c2" class="hidden details-toggle">
+                <div class="details-content text-gray-600 text-sm italic py-3">
+                    Tour panoramique de la capitale (Renaissance, Palais) et émotion sur l'île de Gorée avec guide certifié.
+                </div>
+                <label for="c2" class="details-label text-[#E31B23] text-[10px] font-black cursor-pointer uppercase"></label>
+                
+                <div class="mt-6 flex items-center justify-between bg-slate-50 p-3 rounded-xl border border-slate-200">
+                    <div>
+                        <p class="text-lg font-black text-slate-800">55 000 <span class="text-xs">CFA</span></p>
+                        <p class="text-xs font-bold text-[#00853F]">~ 84 €</p>
+                    </div>
+                    <a href="https://wa.me/221774721575" class="bg-[#00853F] text-white px-4 py-3 rounded-lg font-black text-xs uppercase shadow-md hover:bg-green-700 transition">Réserver</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-2xl overflow-hidden shadow-2xl card-tour relative border-[#FDEF42] border-t-8">
+            <img src="https://images.unsplash.com/photo-1596431114513-43577708ce1d?w=800" class="w-full h-64 object-cover" alt="Mbour">
+            <div class="p-6">
+                <h3 class="text-xl font-black text-[#00853F] uppercase">1/2 J. en Brousse</h3>
+                <input type="checkbox" id="c10" class="hidden details-toggle">
+                <div class="details-content text-gray-600 text-sm italic py-3">
+                    Marché de Mbour, retour des pêcheurs et visite d'un village typique pour découvrir la vraie Teranga.
+                </div>
+                <label for="c10" class="details-label text-[#E31B23] text-[10px] font-black cursor-pointer uppercase"></label>
+                
+                <div class="mt-6 flex items-center justify-between bg-slate-50 p-3 rounded-xl border border-slate-200">
+                    <div>
+                        <p class="text-lg font-black text-slate-800">20 000 <span class="text-xs">CFA</span></p>
+                        <p class="text-xs font-bold text-[#00853F]">~ 31 €</p>
+                    </div>
+                    <a href="https://wa.me/221774721575" class="bg-[#E31B23] text-white px-4 py-3 rounded-lg font-black text-xs uppercase shadow-md hover:bg-red-700 transition">Réserver</a>
+                </div>
+            </div>
+        </div>
+
+        </main>
+
+    <footer class="mt-20 bg-slate-900 text-white relative border-t-8 border-[#FDEF42]">
+        <div class="absolute -top-1 bg-[#E31B23] w-full h-1"></div>
+        <div class="p-10 text-center">
+            <h4 class="text-3xl font-black italic text-[#FDEF42] mb-4">YASS TRAVEL TOUR</h4>
+            <p class="text-sm font-bold uppercase tracking-widest text-green-500 mb-8">Le Sénégal comme vous ne l'avez jamais vu</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto mb-10">
+                <div class="bg-white/10 p-4 rounded-xl border-l-4 border-[#00853F]">
+                    <p class="text-[10px] uppercase font-bold text-gray-400">Paiement</p>
+                    <p class="font-black text-sm">WAVE</p>
+                </div>
+                <div class="bg-white/10 p-4 rounded-xl border-l-4 border-orange-500">
+                    <p class="text-[10px] uppercase font-bold text-gray-400">Paiement</p>
+                    <p class="font-black text-sm text-orange-400">ORANGE</p>
+                </div>
+                <div class="bg-white/10 p-4 rounded-xl border-l-4 border-[#FDEF42]">
+                    <p class="text-[10px] uppercase font-bold text-gray-400">Contact</p>
+                    <p class="font-black text-[10px]">+221 77 472 15 75</p>
+                </div>
+                <div class="bg-white/10 p-4 rounded-xl border-l-4 border-[#E31B23]">
+                    <p class="text-[10px] uppercase font-bold text-gray-400">Service</p>
+                    <p class="font-black text-sm">24h/24</p>
+                </div>
+            </div>
+
+            <p class="text-[10px] text-gray-500 italic">© 2026 Sénégal Excursion et Découverte - Design Premium</p>
+        </div>
+    </footer>
+
+</body>
+</html>
