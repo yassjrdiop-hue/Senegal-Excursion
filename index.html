@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sénégal Excursion et Découverte - Officiel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .tour-card { transition: transform 0.3s ease; height: 100%; display: flex; flex-direction: column; border-radius: 20px; overflow: hidden; background: white; box-shadow: 0 10px 25px rgba(0,0,0,0.1); position: relative; }
+        .tour-card:hover { transform: translateY(-10px); }
+        
+        .tampon-gold { 
+            position: absolute; top: 15px; right: 15px; width: 70px; height: 70px; 
+            background: linear-gradient(135deg, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+            color: #4a3701; border-radius: 50%; display: flex; align-items: center; justify-content: center; 
+            text-align: center; font-size: 0.65rem; font-weight: 900; line-height: 1.1; 
+            text-transform: uppercase; border: 2px solid #ffffff; z-index: 30; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4); transform: rotate(10deg);
+        }
+
+        .price-tag { color: #E31B23; font-weight: 900; font-size: 1.4rem; line-height: 1; }
+        .euro-tag { color: #6b7280; font-size: 0.9rem; font-weight: 600; }
+        .hero-bg { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1596431114513-43577708ce1d?q=80&w=2000'); background-size: cover; background-position: center; }
+        .btn-wave { background-color: #22a1ff; }
+        .btn-om { background-color: #ff7900; }
+        .desc-text { font-size: 0.85rem; color: #4b5563; line-height: 1.5; text-align: left; min-height: 80px; }
+        .logo-agence { width: 120px; height: 120px; border-radius: 50%; border: 4px solid #fcf6ba; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin-bottom: 15px; z-index: 10; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <nav class="bg-[#00853F] text-white p-4 sticky top-0 z-50 border-b-4 border-[#FDEF42]">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <span class="font-black uppercase text-xl tracking-tighter italic">Sénégal Excursion</span>
+            <a href="https://wa.me/221774721575" class="bg-[#E31B23] px-6 py-2 rounded-full font-bold text-sm flex items-center shadow-lg">
+                <i class="fa-solid fa-phone mr-2"></i> +221 77 472 15 75
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero-bg h-[45vh] flex flex-col items-center justify-center text-center text-white px-6">
+        <img src="logo.png" alt="Logo Agence" class="logo-agence object-cover">
+        <div class="relative">
+            <h2 class="text-3xl md:text-5xl font-black mb-2 uppercase drop-shadow-lg text-white">Nos 11 Circuits Détaillés</h2>
+            <p class="text-lg font-bold text-[#FDEF42] uppercase italic">Yass Travel Tour</p>
+        </div>
+    </header>
+
+    <section id="circuits" class="container mx-auto py-12 px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="tour-card border-4 border-[#00853F]">
+                <div class="tampon-gold">Local<br>Tout<br>Inclus</div>
+                <img src="[attachment_0](attachment)" class="w-full h-52 object-cover" alt="Pirogue de pêcheurs Sénégal">
+                <div class="p-6 flex-grow flex flex-col text-center">
+                    <h4 class="text-xl font-black text-[#00853F] uppercase mb-3">1/2 Journée en Brousse</h4>
+                    <p class="desc-text mb-4 italic">Marché de Mbour, retour spectaculaire des pêcheurs avec leurs pirogues colorées et visite d'un village typique.</p>
+                    <div class="mt-auto">
+                        <div class="mb-4">
+                            <p class="price-tag">20 000 CFA</p>
+                            <p class="euro-tag">~ 30 €</p>
+                        </div>
+                        <a href="https://wa.me/221774721575?text=Réservation Brousse" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold mb-3 shadow-lg">Réserver l'Authentique</a>
+                        <div class="flex gap-2 text-[9px] font-bold"><div class="flex-1 btn-wave text-white py-2 rounded-lg">WAVE</div><div class="flex-1 btn-om text-white py-2 rounded-lg">ORANGE MONEY</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-gold">Pack<br>Tout<br>Inclus</div>
+                <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=800" class="w-full h-52 object-cover" alt="Safari Sénégal">
+                <div class="p-6 flex-grow flex flex-col text-center">
+                    <h4 class="text-xl font-black text-[#E31B23] uppercase mb-3">Bandia + Île de Gorée</h4>
+                    <p class="desc-text mb-4 italic">Safari le matin et histoire à Gorée l'après-midi. Transport, tickets et déjeuner inclus.</p>
+                    <div class="mt-auto">
+                        <div class="mb-4">
+                            <p class="price-tag">85 000 CFA</p>
+                            <p class="euro-tag">~ 130 €</p>
+                        </div>
+                        <a href="https://wa.me/221774721575" class="block bg-gray-800 text-white py-3 rounded-xl font-bold mb-3 shadow-lg">Réserver</a>
+                        <div class="flex gap-2 text-[9px] font-bold"><div class="flex-1 btn-wave text-white py-2 rounded-lg">WAVE</div><div class="flex-1 btn-om text-white py-2 rounded-lg">ORANGE MONEY</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-gold">Pack<br>Tout<br>Inclus</div>
+                <img src="https://images.unsplash.com/photo-1523805081730-61444927f075?w=800" class="w-full h-52 object-cover" alt="Sénégal Lac Rose">
+                <div class="p-6 flex-grow flex flex-col text-center">
+                    <h4 class="text-xl font-black text-[#00853F] uppercase mb-3">Gorée + Lac Rose</h4>
+                    <p class="desc-text mb-4 italic">La visite historique de Gorée suivie de l'aventure 4x4 sur les dunes du Lac Rose.</p>
+                    <div class="mt-auto">
+                        <div class="mb-4">
+                            <p class="price-tag">75 000 CFA</p>
+                            <p class="euro-tag">~ 115 €</p>
+                        </div>
+                        <a href="https://wa.me/221774721575" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold mb-3 shadow-lg">Réserver</a>
+                        <div class="flex gap-2 text-[9px] font-bold"><div class="flex-1 btn-wave text-white py-2 rounded-lg">WAVE</div><div class="flex-1 btn-om text-white py-2 rounded-lg">ORANGE MONEY</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-gold">Safari<br>Tout<br>Inclus</div>
+                <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800" class="w-full h-52 object-cover" alt="Lion Sénégal">
+                <div class="p-6 flex-grow flex flex-col text-center">
+                    <h4 class="text-xl font-black text-[#E31B23] uppercase mb-3">Bandia + Lions</h4>
+                    <p class="desc-text mb-4 italic">Réserve de Bandia et rencontre exceptionnelle avec les lions dans la même journée.</p>
+                    <div class="mt-auto">
+                        <div class="mb-4">
+                            <p class="price-tag">85 000 CFA</p>
+                            <p class="euro-tag">~ 130 €</p>
+                        </div>
+                        <a href="https://wa.me/221774721575" class="block bg-gray-800 text-white py-3 rounded-xl font-bold mb-3">Réserver</a>
+                        <div class="flex gap-2 text-[9px] font-bold"><div class="flex-1 btn-wave text-white py-2 rounded-lg">WAVE</div><div class="flex-1 btn-om text-white py-2 rounded-lg">ORANGE MONEY</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-gold">Inclus</div>
+                <img src="https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?w=800" class="w-full h-52 object-cover" alt="Bandia Sénégal">
+                <div class="p-6 flex-grow flex flex-col text-center">
+                    <h4 class="text-xl font-black text-[#00853F] uppercase mb-3">Réserve de Bandia</h4>
+                    <p class="desc-text mb-4 italic">Safari en 4x4 : girafes, rhinocéros, zèbres et singes en liberté.</p>
+                    <div class="mt-auto">
+                        <div class="mb-4">
+                            <p class="price-tag">50 000 CFA</p>
+                            <p class="euro-tag">~ 76 €</p>
+                        </div>
+                        <a href="https://wa.me/221774721575" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold mb-3">Réserver</a>
+                        <div class="flex gap-2 text-[9px] font-bold"><div class="flex-1 btn-wave text-white py-2 rounded-lg">WAVE</div><div class="flex-1 btn-om text-white py-2 rounded-lg">ORANGE MONEY</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-gold">Inclus</div>
+                <img src="https://images.unsplash.com/photo-1575550959106-5a7defe28b56?w=800" class="w-full h-52 object-cover" alt="Lion Safari">
+                <div class="p-6 flex-grow flex flex-col text-center">
+                    <h4 class="text-xl font-black text-[#00853F] uppercase mb-3">Ranch des Lions</h4>
+                    <p class="desc-text mb-4 italic">Une rencontre face à face avec les rois de la savane en toute sécurité.</p>
+                    <div class="mt-auto">
+                        <div class="mb-4">
+                            <p class="price-tag">50 000 CFA</p>
+                            <p class="euro-tag">~ 76 €</p>
+                        </div>
+                        <a href="https://wa.me/221774721575" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold mb-3">Réserver</a>
+                        <div class="flex gap-2 text-[9px] font-bold"><div class="flex-1 btn-wave text-white py-2 rounded-lg">WAVE</div><div class="flex-1 btn-om text-white py-2 rounded-lg">ORANGE MONEY</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-gold">Inclus</div>
+                <img src="https://images.unsplash.com/photo-1539667468225-8df667d26c63?w=800" class="w-full h-52 object-cover" alt="Sine Saloum Mangrove">
+                <div class="p-6 flex-grow flex flex-col text-center">
+                    <h4 class="text-xl font-black text-[#00853F] uppercase mb-3">Sine Saloum</h4>
+                    <p class="desc-text mb-4 italic">Balade en pirogue dans les mangroves et déjeuner sur l'île aux oiseaux.</p>
+                    <div class="mt-auto">
+                        <div class="mb-4">
+                            <p class="price-tag">50 000 CFA</p>
+                            <p class="euro-tag">~ 76 €</p>
+                        </div>
+                        <a href="https://wa.me/221774721575" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold mb-3">Réserver</a>
+                        <div class="flex gap-2 text-[9px] font-bold"><div class="flex-1 btn-wave text-white py-2 rounded-lg">WAVE</div><div class="flex-1 btn-om text-white py-2 rounded-lg">ORANGE MONEY</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-gold">Inclus</div>
+                <img src="https://images.unsplash.com/photo-1599708153386-62e257760773?w=800" class="w-full h-52 object-cover" alt="Dakar Gorée">
+                <div class="p-6 flex-grow flex flex-col text-center">
+                    <h4 class="text-xl font-black text-[#00853F] uppercase mb-3">Dakar & Gorée</h4>
+                    <p class="desc-text mb-4 italic">Culture et histoire. Visite de la Maison des Esclaves et tour de ville.</p>
+                    <div class="mt-auto">
+                        <div class="mb-4">
+                            <p class="price-tag">55 000 CFA</p>
+                            <p class="euro-tag">~ 84 €</p>
+                        </div>
+                        <a href="https://wa.me/221774721575" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold mb-3">Réserver</a>
+                        <div class="flex gap-2 text-[9px] font-bold"><div class="flex-1 btn-wave text-white py-2 rounded-lg">WAVE</div><div class="flex-1 btn-om text-white py-2 rounded-lg">ORANGE MONEY</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-gold">Inclus</div>
+                <img src="https://images.unsplash.com/photo-1628172813155-2e0fdf118b62?w=800" class="w-full h-52 object-cover" alt="Lac Rose Sénégal">
+                <div class="p-6 flex-grow flex flex-col text-center">
+                    <h4 class="text-xl font-black text-[#00853F] uppercase mb-3">Le Lac Rose</h4>
+                    <p class="desc-text mb-4 italic">Baignade salée et tour des dunes en 4x4 sur les traces du Paris-Dakar.</p>
+                    <div class="mt-auto">
+                        <div class="mb-4">
+                            <p class="price-tag">40 000 CFA</p>
+                            <p class="euro-tag">~ 61 €</p>
+                        </div>
+                        <a href="https://wa.me/221774721575" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold mb-3">Réserver</a>
+                        <div class="flex gap-2 text-[9px] font-bold"><div class="flex-1 btn-wave text-white py-2 rounded-lg">WAVE</div><div class="flex-1 btn-om text-white py-2 rounded-lg">ORANGE MONEY</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-gold">Inclus</div>
+                <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800" class="w-full h-52 object-cover" alt="Joal Fadiouth">
+                <div class="p-6 flex-grow flex flex-col text-center">
+                    <h4 class="text-xl font-black text-[#00853F] uppercase mb-3">Joal-Fadiouth</h4>
+                    <p class="desc-text mb-4 italic">L'île aux coquillages, ses ponts de bois et son cimetière unique.</p>
+                    <div class="mt-auto">
+                        <div class="mb-4">
+                            <p class="price-tag">30 000 CFA</p>
+                            <p class="euro-tag">~ 46 €</p>
+                        </div>
+                        <a href="https://wa.me/221774721575" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold mb-3">Réserver</a>
+                        <div class="flex gap-2 text-[9px] font-bold"><div class="flex-1 btn-wave text-white py-2 rounded-lg">WAVE</div><div class="flex-1 btn-om text-white py-2 rounded-lg">ORANGE MONEY</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card">
+                <div class="tampon-gold">Inclus</div>
+                <img src="https://images.unsplash.com/photo-1596431114513-43577708ce1d?w=800" class="w-full h-52 object-cover" alt="Somone Sénégal">
+                <div class="p-6 flex-grow flex flex-col text-center">
+                    <h4 class="text-xl font-black text-[#00853F] uppercase mb-3">Lagune Somone</h4>
+                    <p class="desc-text mb-4 italic">Observation des oiseaux et détente dans la réserve naturelle.</p>
+                    <div class="mt-auto">
+                        <div class="mb-4">
+                            <p class="price-tag">25 000 CFA</p>
+                            <p class="euro-tag">~ 38 €</p>
+                        </div>
+                        <a href="https://wa.me/221774721575" class="block bg-[#00853F] text-white py-3 rounded-xl font-bold mb-3">Réserver</a>
+                        <div class="flex gap-2 text-[9px] font-bold"><div class="flex-1 btn-wave text-white py-2 rounded-lg">WAVE</div><div class="flex-1 btn-om text-white py-2 rounded-lg">ORANGE MONEY</div></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 text-center border-t-8 border-[#FDEF42]">
+        <h4 class="text-[#FDEF42] font-black text-2xl mb-2 uppercase italic tracking-tighter">Yass Travel Tour</h4>
+        <div class="flex justify-center space-x-6 mb-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Wave_Logo_S%C3%A9n%C3%A9gal.png" class="h-6" alt="Wave">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Orange_logo.svg/1024px-Orange_logo.svg.png" class="h-6" alt="Orange">
+        </div>
+        <p class="font-black text-xl">+221 77 472 15 75</p>
+    </footer>
+
+</body>
+</html>
