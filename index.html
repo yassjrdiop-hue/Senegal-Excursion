@@ -1,0 +1,22 @@
+<div class="bg-white rounded-3xl overflow-hidden shadow-lg card-zoom border-b-4 border-slate-200">
+    <img src="https://images.unsplash.com/photo-1596431114513-43577708ce1d?w=800" class="w-full h-64 object-cover">
+    <div class="p-6 text-center">
+        <h3 class="text-xl font-black text-[#00853F] uppercase">Demi journée en brousse</h3>
+        <div class="my-4">
+            <span class="text-[#E31B23] font-black text-2xl">30 000 CFA</span>
+            <p class="text-gray-500 font-bold text-xs uppercase">~ 46 € / pers.</p>
+        </div>
+        <button onclick="openModal('m12')" class="text-blue-600 font-bold text-sm underline uppercase">Lire la suite</button>
+    </div>
+</div>
+
+<div id="m12" class="modal hidden fixed inset-0 bg-black/80 z-[100] flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-8 modal-content relative text-center">
+        <button onclick="closeModal('m12')" class="absolute top-4 right-6 text-3xl font-bold">&times;</button>
+        <h3 class="text-2xl font-black text-[#00853F] uppercase">Demi journée en brousse</h3>
+        <p class="my-4 text-sm text-gray-600 leading-relaxed">
+            Une immersion authentique hors des sentiers battus. Partez à la découverte des paysages sauvages, des pistes de brousse et de la vie locale traditionnelle. Une expérience courte mais intense au cœur du Sénégal.
+        </p>
+        <a href="https://wa.me/221774721575" class="block bg-[#E31B23] text-white font-bold py-3 rounded-xl uppercase">Réserver</a>
+    </div>
+</div>
