@@ -1,0 +1,168 @@
+<section class="relative h-screen flex items-center justify-center overflow-hidden">
+    <img src="accueil_senegal.jpg" class="absolute inset-0 w-full h-full object-cover">
+    ```
+
+### 2. Grille des circuits (Mélange JPG et jpg)
+Remplace toute la section `<section id="circuits">` par celle-ci :
+
+```html
+    <section id="circuits" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="goree_facade.JPG" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Gorée & Lac Rose</h3>
+                    <div class="flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-black text-[#E31B23]">75 000 <small class="text-xs">CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">(115 €)</span>
+                        </div>
+                        <button onclick="openModal('m1')" class="w-12 h-12 bg-slate-900 text-white rounded-full hover:bg-[#00853F] transition-all shadow-lg"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="maison_esclaves.JPG" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Dakar & Gorée</h3>
+                    <div class="flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-black text-[#E31B23]">55 000 <small class="text-xs">CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">(85 €)</span>
+                        </div>
+                        <button onclick="openModal('m2')" class="w-12 h-12 bg-slate-900 text-white rounded-full hover:bg-[#00853F] transition-all shadow-lg"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="lions_cage.JPG" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Bandia & Lions</h3>
+                    <div class="flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-black text-[#E31B23]">65 000 <small class="text-xs">CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">(100 €)</span>
+                        </div>
+                        <button onclick="openModal('m3')" class="w-12 h-12 bg-slate-900 text-white rounded-full hover:bg-[#00853F] transition-all shadow-lg"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="reserve_bandia.JPG" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Réserve de Bandia</h3>
+                    <div class="flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-black text-[#E31B23]">35 000 <small class="text-xs">CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">(54 €)</span>
+                        </div>
+                        <button onclick="openModal('m4')" class="w-12 h-12 bg-slate-900 text-white rounded-full hover:bg-[#00853F] transition-all shadow-lg"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="lions_ranch.JPG" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Ranch des Lions</h3>
+                    <div class="flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-black text-[#E31B23]">50 000 <small class="text-xs">CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">(77 €)</span>
+                        </div>
+                        <button onclick="openModal('m5')" class="w-12 h-12 bg-slate-900 text-white rounded-full hover:bg-[#00853F] transition-all shadow-lg"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="sine_saloum.jpg" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Sine Saloum</h3>
+                    <div class="flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-black text-[#E31B23]">50 000 <small class="text-xs">CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">(77 €)</span>
+                        </div>
+                        <button onclick="openModal('m6')" class="w-12 h-12 bg-slate-900 text-white rounded-full hover:bg-[#00853F] transition-all shadow-lg"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="lac_rose.JPG" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Lac Rose</h3>
+                    <div class="flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-black text-[#E31B23]">25 000 <small class="text-xs">CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">(39 €)</span>
+                        </div>
+                        <button onclick="openModal('m7')" class="w-12 h-12 bg-slate-900 text-white rounded-full hover:bg-[#00853F] transition-all shadow-lg"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="joal_fadiouth.JPG" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Joal Fadiouth</h3>
+                    <div class="flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-black text-[#E31B23]">30 000 <small class="text-xs">CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">(46 €)</span>
+                        </div>
+                        <button onclick="openModal('m8')" class="w-12 h-12 bg-slate-900 text-white rounded-full hover:bg-[#00853F] transition-all shadow-lg"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="lagune_somone.JPG" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Lagune Somone</h3>
+                    <div class="flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-black text-[#E31B23]">25 000 <small class="text-xs">CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">(39 €)</span>
+                        </div>
+                        <button onclick="openModal('m9')" class="w-12 h-12 bg-slate-900 text-white rounded-full hover:bg-[#00853F] transition-all shadow-lg"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="desert_lompoul.JPG" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Désert Lompoul</h3>
+                    <div class="flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-black text-[#E31B23]">90 000 <small class="text-xs">CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">(138 €)</span>
+                        </div>
+                        <button onclick="openModal('m10')" class="w-12 h-12 bg-slate-900 text-white rounded-full hover:bg-[#00853F] transition-all shadow-lg"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="iles_saloum.jpg" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Iles du Saloum</h3>
+                    <div class="flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-black text-[#E31B23]">50 000 <small class="text-xs">CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">(77 €)</span>
+                        </div>
+                        <button onclick="openModal('m11')" class="w-12 h-12 bg-slate-900 text-white rounded-full hover:bg-[#00853F] transition-all shadow-lg"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="brousse_village.JPG" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Brousse & Villages</h3>
+                    <div class="flex justify-between items-center">
+                        <div class="flex flex-col">
+                            <span class="text-2xl font-black text-[#E31B23]">30 000 <small class="text-xs">CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">(46 €)</span>
+                        </div>
+                        <button onclick="openModal('m12')" class="w-12 h-12 bg-slate-900 text-white rounded-full hover:bg-[#00853F] transition-all shadow-lg"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
