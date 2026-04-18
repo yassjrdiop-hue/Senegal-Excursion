@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sénégal Excursions et Découvertes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .card-zoom:hover img { transform: scale(1.1); transition: transform 0.5s ease; }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-2xl font-black tracking-tighter text-[#00853F]">SÉNÉGAL <span class="text-[#E31B23]">EXCURSIONS</span></span>
+            <div class="hidden md:flex space-x-8 font-bold text-sm uppercase tracking-widest">
+                <a href="#accueil" class="hover:text-[#00853F]">Accueil</a>
+                <a href="#circuits" class="hover:text-[#00853F]">Circuits</a>
+                <a href="https://wa.me/221774721575" class="bg-[#00853F] text-white px-6 py-2 rounded-full">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="accueil" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="accueil_senegal.jpg" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-10 text-center text-white px-6">
+            <h1 class="text-6xl md:text-8xl font-black mb-6 leading-none uppercase">Découvrez le<br><span class="text-[#FDEF42]">Vrai Sénégal</span></h1>
+            <p class="text-xl md:text-2xl font-light mb-10 max-w-2xl mx-auto italic text-slate-200">Des excursions authentiques, des souvenirs pour la vie.</p>
+            <a href="#circuits" class="inline-block bg-[#E31B23] text-white px-10 py-5 rounded-full font-black uppercase tracking-widest hover:scale-105 transition-transform">Explorer les circuits</a>
+        </div>
+    </section>
+
+    <section id="circuits" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="goree_facade.JPG" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Gorée & Lac Rose</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-black text-[#E31B23]">75 000 CFA</span>
+                        <a href="https://wa.me/221774721575" class="w-12 h-12 bg-slate-900 text-white rounded-full flex items-center justify-center hover:bg-[#00853F]"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="sine_saloum.jpg" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Sine Saloum</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-black text-[#E31B23]">50 000 CFA</span>
+                        <a href="https://wa.me/221774721575" class="w-12 h-12 bg-slate-900 text-white rounded-full flex items-center justify-center hover:bg-[#00853F]"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-zoom rounded-[2.5rem] overflow-hidden bg-white shadow-xl relative group">
+                <img src="lac_rose.JPG" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <h3 class="text-xl font-black mb-4 uppercase">Le Lac Rose</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-black text-[#E31B23]">25 000 CFA</span>
+                        <a href="https://wa.me/221774721575" class="w-12 h-12 bg-slate-900 text-white rounded-full flex items-center justify-center hover:bg-[#00853F]"><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+    </section>
+
+    <footer class="bg-slate-900 text-white py-12 text-center">
+        <p class="font-bold">Sénégal Excursions et Découvertes © 2026</p>
+        <p class="text-slate-500 text-sm mt-2">Contact : +221 77 472 15 75 | yassjrdiop@gmail.com</p>
+    </footer>
+
+</body>
+</html>
