@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sénégal Excursions et Découvertes - Yass Jr</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .card-zoom:hover img { transform: scale(1.05); transition: transform 0.5s ease; }
+        .bg-senegal { background: linear-gradient(90deg, #00853F 33%, #FDEF42 33%, #FDEF42 66%, #E31B23 66%); height: 5px; }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <div class="bg-senegal"></div>
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-2xl font-black tracking-tighter text-[#00853F]">SÉNÉGAL <span class="text-[#E31B23]">EXCURSIONS</span></span>
+            <div class="hidden md:flex space-x-8 font-bold text-sm uppercase tracking-widest">
+                <a href="#accueil" class="hover:text-[#00853F]">Accueil</a>
+                <a href="#circuits" class="hover:text-[#00853F]">Circuits</a>
+                <a href="#avis" class="hover:text-[#00853F]">Avis</a>
+                <a href="https://wa.me/221774721575" target="_blank" class="bg-[#00853F] text-white px-6 py-2 rounded-full hover:bg-emerald-700 transition-colors">WhatsApp</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="accueil" class="relative h-[80vh] flex items-center justify-center overflow-hidden">
+        <img src="accueil_senegal.jpg" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-10 text-center text-white px-6">
+            <h1 class="text-5xl md:text-7xl font-black mb-4 uppercase">Le Sénégal avec <span class="text-[#FDEF42]">Yass Jr</span></h1>
+            <p class="text-lg md:text-xl font-light mb-8 max-w-2xl mx-auto text-slate-200">Guide local expert pour des aventures authentiques et sécurisées.</p>
+            <a href="#circuits" class="inline-block bg-[#E31B23] text-white px-10 py-4 rounded-full font-black uppercase tracking-widest hover:scale-105 transition-transform shadow-2xl">Voir les circuits</a>
+        </div>
+    </section>
+
+    <section id="circuits" class="py-20 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-black uppercase tracking-tighter">Nos Circuits</h2>
+                <div class="w-24 h-1 bg-[#FDEF42] mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <div class="card-zoom rounded-3xl overflow-hidden bg-white shadow-lg border border-slate-100 flex flex-col">
+                    <img src="goree_facade.JPG" class="w-full h-64 object-cover">
+                    <div class="p-6 flex-grow">
+                        <h3 class="text-xl font-bold mb-2">Gorée & Lac Rose</h3>
+                        <p class="text-slate-600 text-sm mb-4 leading-relaxed">Une journée d'histoire sur l'île de Gorée suivie d'une détente magique face aux eaux roses du lac Retba et ses ramasseurs de sel.</p>
+                        <div class="flex justify-between items-end mt-auto">
+                            <div>
+                                <span class="block text-2xl font-black text-[#E31B23]">75 000 CFA</span>
+                                <span class="text-sm font-bold text-slate-400">115 € / personne</span>
+                            </div>
+                            <a href="https://wa.me/221774721575" class="bg-emerald-100 text-[#00853F] px-4 py-2 rounded-xl font-bold text-sm">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-zoom rounded-3xl overflow-hidden bg-white shadow-lg border border-slate-100 flex flex-col">
+                    <img src="maison_esclaves.JPG" class="w-full h-64 object-cover">
+                    <div class="p-6 flex-grow">
+                        <h3 class="text-xl font-bold mb-2">Dakar & Gorée</h3>
+                        <p class="text-slate-600 text-sm mb-4 leading-relaxed">Visite guidée de la capitale (Monument de la Renaissance, marchés) et immersion historique à la Maison des Esclaves.</p>
+                        <div class="flex justify-between items-end mt-auto">
+                            <div>
+                                <span class="block text-2xl font-black text-[#E31B23]">55 000 CFA</span>
+                                <span class="text-sm font-bold text-slate-400">84 € / personne</span>
+                            </div>
+                            <a href="https://wa.me/221774721575" class="bg-emerald-100 text-[#00853F] px-4 py-2 rounded-xl font-bold text-sm">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-zoom rounded-3xl overflow-hidden bg-white shadow-lg border border-slate-100 flex flex-col">
+                    <img src="lions_cage.JPG" class="w-full h-64 object-cover">
+                    <div class="p-6 flex-grow">
+                        <h3 class="text-xl font-bold mb-2">Bandia & Lions</h3>
+                        <p class="text-slate-600 text-sm mb-4 leading-relaxed">Safari en 4x4 dans la réserve de Bandia pour voir girafes et rhinocéros, suivi d'une marche inoubliable avec les lions.</p>
+                        <div class="flex justify-between items-end mt-auto">
+                            <div>
+                                <span class="block text-2xl font-black text-[#E31B23]">65 000 CFA</span>
+                                <span class="text-sm font-bold text-slate-400">99 € / personne</span>
+                            </div>
+                            <a href="https://wa.me/221774721575" class="bg-emerald-100 text-[#00853F] px-4 py-2 rounded-xl font-bold text-sm">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-zoom rounded-3xl overflow-hidden bg-white shadow-lg border border-slate-100 flex flex-col">
+                    <img src="reserve_bandia.JPG" class="w-full h-64 object-cover">
+                    <div class="p-6 flex-grow">
+                        <h3 class="text-xl font-bold mb-2">Réserve de Bandia</h3>
+                        <p class="text-slate-600 text-sm mb-4 leading-relaxed">Le meilleur safari du Sénégal. Observez la faune sauvage (crocodiles, singes, antilopes) au milieu des baobabs millénaires.</p>
+                        <div class="flex justify-between items-end mt-auto">
+                            <div>
+                                <span class="block text-2xl font-black text-[#E31B23]">35 000 CFA</span>
+                                <span class="text-sm font-bold text-slate-400">53 € / personne</span>
+                            </div>
+                            <a href="https://wa.me/221774721575" class="bg-emerald-100 text-[#00853F] px-4 py-2 rounded-xl font-bold text-sm">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-zoom rounded-3xl overflow-hidden bg-white shadow-xl border border-slate-100 flex flex-col">
+                    <img src="lions_ranch.JPG" class="w-full h-64 object-cover">
+                    <div class="p-6 flex-grow">
+                        <h3 class="text-xl font-bold mb-2">Ranch des Lions</h3>
+                        <p class="text-slate-600 text-sm mb-4 leading-relaxed">Une expérience unique au monde : approchez le roi de la savane de très près et apprenez-en plus sur leur mode de vie en semi-liberté.</p>
+                        <div class="flex justify-between items-end mt-auto">
+                            <div>
+                                <span class="block text-2xl font-black text-[#E31B23]">50 000 CFA</span>
+                                <span class="text-sm font-bold text-slate-400">76 € / personne</span>
+                            </div>
+                            <a href="https://wa.me/221774721575" class="bg-emerald-100 text-[#00853F] px-4 py-2 rounded-xl font-bold text-sm">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-zoom rounded-3xl overflow-hidden bg-white shadow-lg border border-slate-100 flex flex-col">
+                    <img src="sine_saloum.jpg" class="w-full h-64 object-cover">
+                    <div class="p-6 flex-grow">
+                        <h3 class="text-xl font-bold mb-2">Le Sine Saloum</h3>
+                        <p class="text-slate-600 text-sm mb-4 leading-relaxed">Balade en pirogue à travers les mangroves, observation des oiseaux et visite de villages de pêcheurs authentiques.</p>
+                        <div class="flex justify-between items-end mt-auto">
+                            <div>
+                                <span class="block text-2xl font-black text-[#E31B23]">50 000 CFA</span>
+                                <span class="text-sm font-bold text-slate-400">76 € / personne</span>
+                            </div>
+                            <a href="https://wa.me/221774721575" class="bg-emerald-100 text-[#00853F] px-4 py-2 rounded-xl font-bold text-sm">Réserver</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-zoom rounded-3xl overflow-hidden bg-white shadow-lg border border-slate-100 flex flex-col">
+                    <img src="lac_rose.JPG" class="w-full h-64 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-4 uppercase">Lac Rose</h3>
+                        <p class="text-slate-600 text-sm mb-4">Tour du lac en 4x4, découverte des dunes et baignade dans le lac pour flotter sans effort grâce au sel.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-black text-[#E31B23]">25 000 <small>CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">38 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-zoom rounded-3xl overflow-hidden bg-white shadow-lg border border-slate-100 flex flex-col">
+                    <img src="joal_fadiouth.JPG" class="w-full h-64 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-4 uppercase">Joal Fadiouth</h3>
+                        <p class="text-slate-600 text-sm mb-4">Visite du village de coquillages et du cimetière mixte (chrétien et musulman), symbole de tolérance au Sénégal.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-black text-[#E31B23]">30 000 <small>CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">46 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-zoom rounded-3xl overflow-hidden bg-white shadow-lg border border-slate-100 flex flex-col">
+                    <img src="lagune_somone.JPG" class="w-full h-64 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-4 uppercase">Lagune Somone</h3>
+                        <p class="text-slate-600 text-sm mb-4">Un paradis pour les amoureux de la nature : balade en bateau, observation de hérons et détente sur les bancs de sable.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-black text-[#E31B23]">25 000 <small>CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">38 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-zoom rounded-3xl overflow-hidden bg-white shadow-lg border border-slate-100 flex flex-col">
+                    <img src="desert_lompoul.JPG" class="w-full h-64 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-4 uppercase">Désert Lompoul</h3>
+                        <p class="text-slate-600 text-sm mb-4">Nuit sous tente berbère, balade à dos de chameau et spectacle folklorique sous les étoiles du désert.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-black text-[#E31B23]">90 000 <small>CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">137 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-zoom rounded-3xl overflow-hidden bg-white shadow-lg border border-slate-100 flex flex-col">
+                    <img src="iles_saloum.jpg" class="w-full h-64 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-4 uppercase">Iles du Saloum</h3>
+                        <p class="text-slate-600 text-sm mb-4">Découvrez les îles désertes du parc national du Saloum, avec déjeuner traditionnel sur une plage sauvage.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-black text-[#E31B23]">50 000 <small>CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">76 €</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-zoom rounded-3xl overflow-hidden bg-white shadow-lg border border-slate-100 flex flex-col">
+                    <img src="brousse_village.JPG" class="w-full h-64 object-cover">
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-4 uppercase">Brousse & Villages</h3>
+                        <p class="text-slate-600 text-sm mb-4">Une journée en 4x4 loin des zones touristiques pour rencontrer les populations locales et partager leur quotidien.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-black text-[#E31B23]">30 000 <small>CFA</small></span>
+                            <span class="text-sm font-bold text-slate-400">46 €</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="avis" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-black text-center mb-12 uppercase">Ce que disent nos voyageurs</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-slate-50 p-8 rounded-3xl italic">
+                    <div class="flex text-yellow-400 mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Une journée incroyable au Lac Rose avec Yass Jr. Guide très ponctuel et passionné par son pays. Je recommande !"</p>
+                    <span class="block mt-4 font-bold text-sm">— Marie L., France</span>
+                </div>
+                <div class="bg-slate-50 p-8 rounded-3xl italic">
+                    <div class="flex text-yellow-400 mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"La marche avec les lions à Bandia était le moment fort de notre séjour. Yass a tout organisé parfaitement."</p>
+                    <span class="block mt-4 font-bold text-sm">— Thomas K., Belgique</span>
+                </div>
+                <div class="bg-slate-50 p-8 rounded-3xl italic">
+                    <div class="flex text-yellow-400 mb-4"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Merci Yass pour la découverte du Sine Saloum. Authenticité et gentillesse au rendez-vous. À bientôt !"</p>
+                    <span class="block mt-4 font-bold text-sm">— Jean-Pierre D., Suisse</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-white py-12 text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-xl font-bold mb-4">Sénégal Excursions et Découvertes</h2>
+            <p class="text-slate-400 mb-6 text-sm">Réservez dès maintenant pour une expérience inoubliable au Sénégal.</p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="https://wa.me/221774721575" class="text-2xl hover:text-emerald-400 transition-colors"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:yassjrdiop@gmail.com" class="text-2xl hover:text-red-400 transition-colors"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="text-slate-600 text-xs uppercase tracking-widest">© 2026 Yass Jr Diop — Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
